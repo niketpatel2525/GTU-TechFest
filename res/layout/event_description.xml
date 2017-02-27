@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:background="#000000" android:scrollbars="200" android:layout_width="-1" android:layout_height="-1" android:weightSum="1.0">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:weightSum="1.0"
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_weight="0.5">
+            <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:typeface="1" android:textStyle="3" android:textColor="#63c9ff" android:gravity="1" android:id="@id/event" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="#ffffff" android:gravity="11" android:id="@id/slogan" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp" android:maxLines="3" android:layout_below="@id/event" />
+            <ImageView android:id="@id/eventimage" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_below="@id/slogan" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="#ffffff" android:gravity="3" android:id="@id/team" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_below="@id/eventimage" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="#ffffff" android:gravity="3" android:id="@id/fee" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginBottom="5dp" android:layout_below="@id/team" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="#ff0000" android:gravity="3" android:id="@id/venue" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginBottom="5dp" android:text="Venue:    L M College of Pharmacy" android:layout_below="@id/team" />
+        </LinearLayout>
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_weight="0.5">
+            <ExpandableListView android:id="@id/lvExp2" android:background="#ffffff" android:layout_width="-1" android:layout_height="-1" android:layout_margin="5dp" android:groupIndicator="@drawable/group_indicator" android:layout_below="@id/fee" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

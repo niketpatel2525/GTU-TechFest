@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="uva_color">#ffc31756</color>
+    <color name="default_color">#ff111111</color>
+    <color name="opaque_red">#ffff0000</color>
+    <color name="txt1">#ffffffff</color>
+    <color name="black">#ff404040</color>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="1" android:background="#404040" android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:gravity="1" android:orientation="1" android:id="@id/mySliderListLayout" android:background="#404040" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" android:layout_marginBottom="8dp">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textSize="19sp" android:textColor="#0099ff" android:id="@id/slider_text" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="6dp" android:layout_marginBottom="8dp" />
+        <View android:background="#808080" android:layout_width="-1" android:layout_height="1dp" android:layout_marginTop="1dp" android:layout_marginBottom="1dp" />
+    </LinearLayout>
+</RelativeLayout>

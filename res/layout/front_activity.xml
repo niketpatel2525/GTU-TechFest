@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:background="#000000" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:gravity="1" android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:weightSum="1.0"
+        <LinearLayout android:gravity="1" android:id="@id/front_liner_1" android:layout_width="-1" android:layout_height="-1" android:layout_weight="0.3">
+            <ImageView android:layout_gravity="10" android:id="@id/imageView1" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/gtulogo" />
+        </LinearLayout>
+        <LinearLayout android:gravity="1" android:layout_width="-1" android:layout_height="-1" android:layout_weight="0.7">
+            <TextView android:textSize="25sp" android:textColor="#ffffff" android:gravity="1" android:layout_gravity="1" android:id="@id/tvGTU" android:layout_width="-1" android:layout_height="-1" android:text="GTU TECHFEST'15" android:lines="1" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

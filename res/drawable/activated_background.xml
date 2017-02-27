@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:drawable="@color/uva_color" android:state_activated="true" />
+    <item android:state_selected="true" android:drawable="@color/uva_color" />
+    <item android:state_pressed="true" android:drawable="@color/uva_color" />
+    <item android:drawable="@color/default_color" />
+</selector>

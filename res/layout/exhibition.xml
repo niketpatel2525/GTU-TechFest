@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <WebView android:textSize="12sp" android:textColor="#ffffff" android:id="@id/webExhibition" android:background="#000000" android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="26dp" />
+</LinearLayout>

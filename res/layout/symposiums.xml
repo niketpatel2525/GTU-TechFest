@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="#000000" android:layout_width="-1" android:layout_height="-1" android:weightSum="1.0">
+    <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:typeface="1" android:textStyle="3" android:textColor="#63c9ff" android:gravity="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp" android:text="Symposiums" />
+    <ImageView android:id="@id/gallery3" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="20dp" android:src="@drawable/symposiums" android:layout_weight="0.9" />
+    <ExpandableListView android:id="@id/lvExp3" android:background="#ffffff" android:layout_width="-1" android:layout_height="-2" android:layout_margin="5dp" android:groupIndicator="@drawable/group_indicator" android:layout_weight="0.1" />
+</LinearLayout>
